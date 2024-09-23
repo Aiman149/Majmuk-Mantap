@@ -48,13 +48,14 @@ h2 {
   
 .btn, .next-btn {
     margin: 10px 0;
-    padding: 15px; /* Increase padding for height */
+    padding: 15px; /* Adjust padding if needed */
     width: 100%; /* Make buttons take full width of the container */
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px; /* Increase font size */
 }
 
 .btn:hover, .next-btn:hover {
