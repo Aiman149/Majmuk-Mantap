@@ -281,7 +281,7 @@ function nextQuestion() {
     if (currentQuestionIndex < questions.length) {
         showQuestion(questions[currentQuestionIndex]);
     } else {
-        questionElement.innerHTML = `<div class="final-score">Quiz Finished! Your Score: ${score}/${questions.length}</div>`;
+        questionElement.innerHTML = `<div class="final-score">Tahniah! Skor ahkir anda sebanyak: ${score}/${questions.length}</div>`;
         nextButton.style.display = 'none';
         answerButtons.forEach(button => button.style.display = 'none');
     }
@@ -303,7 +303,7 @@ function selectAnswer(selectedAnswer) {
 
     if (selectedAnswer === correctAnswer) {
         score++;
-        scoreElement.textContent = `Score: ${score}`;
+        scoreElement.textContent = `Skor: ${score}`;
         correctSound.play(); // Play correct answer sound
         happyImage.style.display = 'block'; // Show happy image
         sadImage.style.display = 'none'; // Ensure sad image is hidden
