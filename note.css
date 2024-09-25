@@ -13,8 +13,7 @@ body {
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
+    position: static; /* Change position to static */
     width: 100%;
     padding: 20px;
     background-color: rgba(51, 51, 51, 0.8);
@@ -25,7 +24,7 @@ body {
 }
 
 .content-container {
-    margin-top: 200px; /* Increased margin to lower the content */
+    margin-top: 20px; /* Adjusted margin to lower the content */
     padding: 20px;
     background-color: rgba(246, 248, 100, 0.9); /* Slightly transparent white background */
     border-radius: 10px; /* Rounded corners */
