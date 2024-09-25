@@ -24,13 +24,21 @@
         <img id="sad-image" src="sad.png" alt="Sad" class="feedback-image" style="display: none;">
     </div>
     <button id="next-btn" class="next-btn" onclick="nextQuestion()">Seterusnya</button>
-</div>
+  </div>
 
+  <!-- Centered button for Section B -->
+  <button id="sectionB-btn" class="btnTop" onclick="goToSectionB()" style="display: none;">Pergi ke set B</button>
 
   <!-- Audio elements for sound effects -->
   <audio id="correct-sound" src="correct.mp3"></audio>
   <audio id="incorrect-sound" src="incorrect.mp3"></audio>
 
   <script src="main.js"></script>
+  <script>
+    // Function to redirect to Section B
+    function goToSectionB() {
+      window.location.href = 'sectionB.html'; // Redirect to Section B
+    }
+  </script>
 </body>
 </html>

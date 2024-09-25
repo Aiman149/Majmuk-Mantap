@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KATAMM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <span id="score">Skor: 0</span>
+  </div>
+  
+  <div class="quiz-container">
+    <div id="question-container">
+        <h2 id="question">Soalan akan muncul disini</h2>
+        <div id="answer-buttons" class="btn-container">
+            <button class="btn" onclick="selectAnswer(0)">Choice 1</button>
+            <button class="btn" onclick="selectAnswer(1)">Choice 2</button>
+            <button class="btn" onclick="selectAnswer(2)">Choice 3</button>
+            <button class="btn" onclick="selectAnswer(3)">Choice 4</button>
+        </div>
+        <img id="happy-image" src="Correct.png" alt="Happy" class="feedback-image" style="display: none;">
+        <img id="sad-image" src="sad.png" alt="Sad" class="feedback-image" style="display: none;">
+    </div>
+    <button id="next-btn" class="next-btn" onclick="nextQuestion()">Seterusnya</button>
+  </div>
+
+  <!-- Centered button for Section B -->
+  <button id="sectionB-btn" class="btnTop" onclick="goToSectionB()" style="display: none;">Pergi ke halaman utama</button>
+
+  <!-- Audio elements for sound effects -->
+  <audio id="correct-sound" src="correct.mp3"></audio>
+  <audio id="incorrect-sound" src="incorrect.mp3"></audio>
+
+  <script src="mainB.js"></script>
+  <script>
+    // Function to redirect to Section B
+    function goToSectionB() {
+      window.location.href = 'main.html'; // Redirect to Section B
+    }
+  </script>
+</body>
+</html>

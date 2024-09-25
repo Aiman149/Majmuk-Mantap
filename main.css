@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bck1.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for navbar */
+    color: white;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 15px;
+    width: 200px; /* Set width for buttons */
+    background-color: yellow; /* Set button background to yellow */
+    color: black; /* Set text color to black */
+    font-weight: bold; /* Make text bold */
+    border: 2px solid white; /* Add a white border */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #ffcc00; /* Change to a darker yellow on hover */
+    border-color: #ffffff; /* Keep border white on hover */
+}

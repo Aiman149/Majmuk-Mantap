@@ -98,134 +98,8 @@ const questions = [
         question: '20) Cikgu Lyana telah menjalankan __________ nya sebagai pengadil bagi pertandingan bola baling',
         answers: ['sukarela', 'setiausaha', 'tanggung jawab', 'tanggungjawab'],
         correct: 3
-    },
-    {
-        question: '21) Yang manakah bukan kata majmuk mantap?',
-        answers: ['Tanggungjawab', 'Peribahasa', 'Beritahu', 'Olahraga'],
-        correct: 2
-    },
-    {
-        question: '22) Sebahagian besar ___________ kerajaan merupakan guru sekolah.',
-        answers: ['kaki bangku', 'kaki lima', 'kaki tangan', 'kakitangan'],
-        correct: 3
-    },
-    {
-        question: '23) "Kilang yang menghasilkan produk daripada daging lembu itu milik syarikat __________," kata Cik Ilyana.',
-        answers: ['Bumiputera', 'antarabangsa', 'kakitangan', 'jawatankuasa'],
-        correct: 0
-    },
-    {
-        question: '24) " __________ kamu di sini adalah memantau keadaan kolam ternakan ikan ini" kata Encik Hemachandran kepada pekerja baharu itu.',
-        answers: ['kakitangan', 'tanggungjawab', 'tandatangan', 'dukacita'],
-        correct: 1
-    },
-    {
-        question: '25) "Saya akan menjalani latihan __________ pada petang ini di padang sekolah," kata Ikhmal kepada Cikgu Zainuddin.',
-        answers: ['tandatangan', 'antarabangsa', 'bumiputera', 'olahraga'],
-        correct: 3
-    },
-    {
-        question: '26) "Dia bukan __________ Malaysia kerana berasal dari Singapura," kata Hanum kepada Syuhada.',
-        answers: ['warganegara', 'kakitangan', 'pesuruhjaya', 'antarabangsa'],
-        correct: 0
-    },
-    {
-        question: '27) Cikgu Syikin mahu kami menyusun kerusi dan meja di dalam kelas itu semula seperti __________.',
-        answers: ['sukarela', 'sukacita', 'apabila', 'sediakala'],
-        correct: 3
-    },
-    {
-        question: '28) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Antara bangsa', 'Antarabanggsa', 'Antarrabangsa', 'antarabangsa'],
-        correct: 3
-    },
-    {
-        question: '29) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Jawatankuasa', 'Jawatankuassa', 'Jawatakuasa', 'jawatakkuasa'],
-        correct: 0
-    },
-    {
-        question: '30) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Olah raga', 'Olahraga', 'Ollahraga', 'Olahragga'],
-        correct: 1
-    },
-    {
-        question: '31) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Sukarella', 'Sukarrela', 'Sukkarela', 'sukarela'],
-        correct: 3
-    },
-    {
-        question: '32) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Tanggungjawab', 'Tangunggjawab', 'Tanggungan', 'tanggunggjawab'],
-        correct: 0
-    },
-    {
-        question: '33) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Berritahu', 'Beritahu', 'Baritahu ', 'Beritau '],
-        correct: 1
-    },
-    {
-        question: '34) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Kakiktangan', 'Kakiangan', 'Kakitangan', 'Kakitanga'],
-        correct: 2
-    },
-    {
-        question: '35) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Matahhari', 'Matari', 'Mentari', 'matahari'],
-        correct: 3
-    },
-    {
-        question: '36) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Surujaya', 'Serujaya', 'Suruhanjaya', 'Suruhajaya'],
-        correct: 2
-    },
-    {
-        question: '37) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Bumitera', 'Bummiputera', 'Bumipettera', 'Bumiputera'],
-        correct: 3
-    },
-    {
-        question: '38) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Kejasama', 'Kerjasama', 'Kerjama', 'kerjassama'],
-        correct: 1
-    },
-    {
-        question: '39) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Setiusuha', 'Setiasaha', 'Setiausaha', 'Settiaussaha'],
-        correct: 2
-    },
-    {
-        question: '40) Manakah antara berikut merupakan ejaan yang betul?',
-        answers: ['Tandatangan', 'Tadatangan', 'Taddatangan', 'tandangan'],
-        correct: 0
-    },
-    {
-        question: '41) Manakah antara berikut merupakan kata majmuk mantap?',
-        answers: ['Pusat Sumber', 'Pesuruhjaya', 'Klinik perubatan', 'Alat tulis'],
-        correct: 1
-    },
-    {
-        question: '42) Manakah antara berikut merupakan kata majmuk mantap?',
-        answers: ['Warga Asing', 'Papan kenyataan', 'Warganegara', 'Bilik darjah'],
-        correct: 2
-    },
-    {
-        question: '43) Manakah antara berikut merupakan kata majmuk mantap?',
-        answers: ['Telur Ayam', 'Kakitangan', 'Kaki ayam', 'Kaki bangku'],
-        correct: 1
-    },
-    {
-        question: '44) Manakah antara berikut merupakan kata majmuk mantap?',
-        answers: ['Rantai Emas', 'Minta Diri', 'Tong Sampah', 'Sukarela'],
-        correct: 3
-    },
-    {
-        question: '45) Manakah antara berikut merupakan kata majmuk mantap?',
-        answers: ['Tanggungjawab', 'Sarung tangan', 'Papan tulis', 'Kapal terbang'],
-        correct: 0
     }
 ];
-
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -251,40 +125,6 @@ function showQuestion(question) {
         button.style.backgroundColor = '#007bff';
     });
     nextButton.style.display = 'none';
-}
-
-function selectAnswer(selectedAnswer) {
-    const correctAnswer = questions[currentQuestionIndex].correct;
-
-    answerButtons.forEach((button, index) => {
-        button.disabled = true;
-        if (index === correctAnswer) {
-            button.style.backgroundColor = '#28a745'; // green for correct
-        } else if (index === selectedAnswer && index !== correctAnswer) {
-            button.style.backgroundColor = '#dc3545'; // red for wrong
-        }
-    });
-
-    if (selectedAnswer === correctAnswer) {
-        score++;
-        scoreElement.textContent = `Score: ${score}`;
-        correctSound.play(); // Play correct answer sound
-    } else {
-        incorrectSound.play(); // Play incorrect answer sound
-    }
-
-    nextButton.style.display = 'block';
-}
-
-function nextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion(questions[currentQuestionIndex]);
-    } else {
-        questionElement.innerHTML = `<div class="final-score">Tahniah! Skor ahkir anda sebanyak: ${score}/${questions.length}</div>`;
-        nextButton.style.display = 'none';
-        answerButtons.forEach(button => button.style.display = 'none');
-    }
 }
 
 function selectAnswer(selectedAnswer) {
@@ -316,5 +156,23 @@ function selectAnswer(selectedAnswer) {
     nextButton.style.display = 'block';
 }
 
+function nextQuestion() {
+    currentQuestionIndex++;
+    // In the nextQuestion function
+    if (currentQuestionIndex < questions.length) {
+        showQuestion(questions[currentQuestionIndex]);
+    } else {
+        // Display the final score
+        questionElement.innerHTML = `<div class="final-score">Tahniah! Anda melepasi set A, skor anda sebanyak: ${score}/${questions.length}</div>`;
+        nextButton.style.display = 'none';
+        answerButtons.forEach(button => button.style.display = 'none');
 
+        // Show the button to go to Section B
+        const sectionBButton = document.getElementById('sectionB-btn');
+        sectionBButton.style.display = 'block';  // Make the button visible
+    }
+
+}
+
+// Start the quiz
 startQuiz();

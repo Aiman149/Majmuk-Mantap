@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('note.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    color: #333; /* Text color */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-container {
+    margin-top: 120px; /* Increased margin to lower the content */
+    padding: 20px;
+    background-color: rgba(246, 248, 100, 0.9); /* Slightly transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Limit the width of the container */
+    margin-left: auto;
+    margin-right: auto; /* Center the container */
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px; /* Larger font size for headings */
+}
+
+ol, ul {
+    margin-left: 20px; /* Indent list items */
+    margin-bottom: 20px; /* Space below lists */
+}
+
+.word-list {
+    list-style-type: square; /* Use square bullets for word list */
+    margin-left: 20px; /* Indent the word list */
+}
+
+footer {
+    margin-top: 20px; /* Space above footer */
+    text-align: center; /* Center align footer */
+}
+
+.btn {
+    padding: 10px 20px; /* Button padding */
+    background-color: yellow; /* Button background color */
+    color: black; /* Button text color */
+    font-weight: bold; /* Bold text */
+    border: 2px solid white; /* White border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #ffcc00; /* Change background on hover */
+}

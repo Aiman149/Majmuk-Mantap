@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ms">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arahan Kuiz</title>
+        <link rel="stylesheet" href="tutor.css">
+        <!-- Link to your CSS file for styling -->
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>Arahan Kuiz</h1>
+        </div>
+
+        <div class="instruction-container">
+            <h2>Selamat Datang ke Kuiz!</h2>
+            <p>Sila ikuti arahan di bawah:</p>
+
+            <ol>
+                <li><strong>Pilih Jawapan Anda:</strong> Untuk setiap soalan,
+                    anda akan diberikan empat pilihan jawapan. Klik pada butang
+                    yang berkaitan dengan jawapan pilihan anda.</li>
+                <li><strong>Maklumbalas Terhadap Jawapan Anda:</strong>
+                    <ul>
+                        <li>Jika jawapan yang anda pilih adalah <span
+                                style="color: green;">betul</span>, butang akan
+                            bertukar <strong>hijau</strong>, dan kesan bunyi
+                            <strong>betul</strong> akan dimainkan.</li>
+                        <li>Jika jawapan yang anda pilih adalah <span
+                                style="color: red;">salah</span>, butang akan
+                            bertukar <strong>merah</strong>, dan kesan bunyi
+                            <strong>salah</strong> akan dimainkan.</li>
+                    </ul>
+                </li>
+                <li><strong>Soalan Seterusnya:</strong> Setelah memilih jawapan
+                    anda, tekan butang <strong>"Seterusnya"</strong> untuk
+                    meneruskan ke soalan seterusnya.</li>
+                <li><strong>Bahagian:</strong>
+                    <ul>
+                        <li><strong>Bahagian A:</strong> Mengandungi <strong>20
+                                soalan</strong>.</li>
+                        <li><strong>Bahagian B:</strong> Mengandungi <strong>25
+                                soalan</strong>.</li>
+                    </ul>
+                </li>
+                <li><strong>Keputusan:</strong> Di akhir setiap bahagian,
+                    keputusan anda akan dipaparkan, menunjukkan jumlah jawapan
+                    yang betul daripada jumlah soalan.</li>
+            </ol>
+
+            <p>Semoga berjaya, dan selamat berseronok!</p>
+
+            <center>
+                <button class="btn" onclick="goToMain()">Kembali ke Menu
+                    Utama</button>
+            </center>
+        </div>
+
+        <script>
+        // Function to redirect to main page
+        function goToMain() {
+            window.location.href = 'main.html'; // Redirect to main page
+        }
+    </script>
+    </body>
+</html>

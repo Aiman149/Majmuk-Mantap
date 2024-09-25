@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KATAMM</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>Halaman Utama</h1>
+        </div>
+
+        <div class="button-container">
+            <button class="btn" onclick="goToQuiz()">Nota</button>
+            <button class="btn" onclick="goToSectionB()">Panduan menjawab Quiz</button>
+            <button class="btn" onclick="goToSettings()">Quiz</button>
+        </div>
+
+        <embed name="myMusic" src="bck.mp3" type="audio/midi" autostart="false" Hidden="true" loop="true"></embed> 
+
+        <script>
+
+        window.addEventListener("DOMContentLoaded", event => {
+        const audio = document.querySelector("audio");
+        audio.volume = 0.2;
+        audio.play();
+        });
+
+        function goToQuiz() {
+            window.location.href = 'note.html'; // Redirect to quiz page
+        }
+
+        function goToSectionB() {
+            window.location.href = 'tutor.html'; // Redirect to Section B
+        }
+
+        function goToSettings() {
+            window.location.href = 'index.html'; // Redirect to settings page
+        }
+    </script>
+    </body>
+</html>

@@ -16,7 +16,6 @@ body {
     background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
-  
 .navbar {
     position: fixed;
     top: 0;
@@ -105,4 +104,25 @@ h2 {
 #sad-image {
     right: 20px; /* Position sad image on the right */
     bottom: 20px; /* Adjust vertical position */
+}
+
+/* Other existing styles... */
+
+.btnTop {
+    position: absolute; /* Position absolute to center it */
+    left: 50%; /* Center horizontally */
+    top: 60%; /* Lower position */
+    transform: translate(-50%, -50%); /* Adjust for the button's dimensions */
+    background-color: #007bff; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 18px; /* Font size */
+    display: none; /* Hidden by default, shown later */
+}
+
+.btnTop:hover {
+    background-color: #0056b3; /* Darker background on hover */
 }
