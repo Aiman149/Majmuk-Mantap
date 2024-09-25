@@ -25,7 +25,7 @@ body {
 }
 
 .content-container {
-    margin-top: 120px; /* Increased margin to lower the content */
+    margin-top: 200px; /* Increased margin to lower the content */
     padding: 20px;
     background-color: rgba(246, 248, 100, 0.9); /* Slightly transparent white background */
     border-radius: 10px; /* Rounded corners */
