@@ -111,7 +111,7 @@ h2 {
 .btnTop {
     position: absolute; /* Position absolute to center it */
     left: 50%; /* Center horizontally */
-    top: 60%; /* Lower position */
+    top: 70%; /* Lower position */
     transform: translate(-50%, -50%); /* Adjust for the button's dimensions */
     background-color: #007bff; /* Button background */
     color: white; /* Button text color */
@@ -126,3 +126,4 @@ h2 {
 .btnTop:hover {
     background-color: #0056b3; /* Darker background on hover */
 }
+
